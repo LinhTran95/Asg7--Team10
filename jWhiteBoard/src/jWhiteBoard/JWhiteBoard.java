@@ -446,7 +446,7 @@ public class JWhiteBoard extends ReceiverAdapter implements ActionListener, Chan
             }
             sendClearPanelMsg();
         }
-        else if("Leave".equals(command)) {
+        else if("Exit".equals(command)) {
             stop();
         }
         else
