@@ -439,7 +439,7 @@ public class JWhiteBoard extends ReceiverAdapter implements ActionListener, Chan
      */
     public void actionPerformed(ActionEvent e) {
         String     command=e.getActionCommand();
-        if("Clear".equals(command)) {
+        if("Clean".equals(command)) {
             if(noChannel) {
                 clearPanel();
                 return;
